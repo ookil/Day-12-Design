@@ -1,0 +1,101 @@
+*, *::before, *::after { box-sizing: border-box;}
+
+body
+{
+ padding:0;
+ margin:0;
+} 
+
+p {
+    font-family: 'Roboto';
+    font-size: 1.3125rem;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #F3EED9;
+    min-height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;    
+}
+
+.banner p {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.125rem;
+    letter-spacing: .3em;
+    margin-bottom: 0;
+}
+
+.banner h1 {
+    font-family: 'Playfair Display';
+    font-weight: black;
+    font-size: 3.75rem;
+    color: #824936; 
+    margin-top: .1em;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quality {
+    margin: 5em 0;
+}
+
+.quality__title {
+    font-family: 'Playfair Display';
+    font-weight: black;
+    font-size: 2.25rem;
+    text-align: center;
+    color: #824936;
+}
+
+.col {
+    width: 45%;
+}
+
+.col h3 {
+    font-family: 'Playfair Display';
+    font-weight: black;
+    font-size: 2.25rem;
+    color: #F3EED9;
+    margin-top: 0;
+}
+
+.col p {
+    color: #fff;
+
+}
+
+.made-custom {
+    background-color: #222C2A;
+    padding: 5rem 0;
+}
+
+.created {
+    background-color: #824936;
+    padding: 5rem 0;
+}
+
+
+
